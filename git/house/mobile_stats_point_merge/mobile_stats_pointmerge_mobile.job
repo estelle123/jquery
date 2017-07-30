@@ -1,0 +1,5 @@
+type=hive
+user.to.proxy=mapred
+azk.hive.action=execute.query
+hive.script=scripts/merge.hql
+dependencies=begin_task
